@@ -1,0 +1,73 @@
+﻿Build started 17/12/2014 16:04:02.
+     1>Project "C:\Users\Mark\Documents\GitHub\GP3\GP3-Coursework\Lab1\Lab1\Lab1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cBullet.cpp cCollectable.cpp cEnemy.cpp cGround.cpp cImageLoader.cpp cModel.cpp cModelLoader.cpp cPlayer.cpp cSkyBox.cpp cSound.cpp cWNDManager.cpp GameConstants.cpp Lab1Main.cpp objloader.cpp shader.cpp text2D.cpp windowOGL.cpp
+         windowOGL.cpp
+         text2D.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         shader.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         objloader.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Lab1Main.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\lab1main.cpp(149): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         GameConstants.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         cWNDManager.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         cSound.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         cSkyBox.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         cPlayer.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         cModelLoader.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         cModel.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         cImageLoader.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         cGround.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         cEnemy.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         cCollectable.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         cBullet.cpp
+     1>c:\users\mark\documents\github\gp3\gp3-coursework\lab1\lab1\gameconstants.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mark\Documents\GitHub\GP3\GP3-Coursework\Lab1\Debug\Lab1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Mark\Documents\GitHub\GP3\GP3-Coursework\Lab1\Debug\Lab1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mark\Documents\GitHub\GP3\GP3-Coursework\Lab1\Debug\Lab1.lib" /MACHINE:X86 Debug\cBullet.obj
+         Debug\cCollectable.obj
+         Debug\cEnemy.obj
+         Debug\cGround.obj
+         Debug\cImageLoader.obj
+         Debug\cModel.obj
+         Debug\cModelLoader.obj
+         Debug\cPlayer.obj
+         Debug\cSkyBox.obj
+         Debug\cSound.obj
+         Debug\cWNDManager.obj
+         Debug\GameConstants.obj
+         Debug\Lab1Main.obj
+         Debug\objloader.obj
+         Debug\shader.obj
+         Debug\text2D.obj
+         Debug\windowOGL.obj
+         alut.lib
+         FreeImageDist\Dist\FreeImage.lib
+         glew32.lib
+         glew32s.lib
+         "glm-0.3.2Lib.lib"
+         libdrawtext.lib
+         OpenAL32.lib
+     1>glm-0.3.2Lib.lib(glm.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glm-0.3.2Lib.lib(glm.obj)' or at 'C:\Users\Mark\Documents\GitHub\GP3\GP3-Coursework\Lab1\Debug\vc120.pdb'; linking object as if no debug info
+     1>glm-0.3.2Lib.lib(glmimg.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glm-0.3.2Lib.lib(glmimg.obj)' or at 'C:\Users\Mark\Documents\GitHub\GP3\GP3-Coursework\Lab1\Debug\vc120.pdb'; linking object as if no debug info
+     1>glm-0.3.2Lib.lib(glm_util.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glm-0.3.2Lib.lib(glm_util.obj)' or at 'C:\Users\Mark\Documents\GitHub\GP3\GP3-Coursework\Lab1\Debug\vc120.pdb'; linking object as if no debug info
+         Lab1.vcxproj -> C:\Users\Mark\Documents\GitHub\GP3\GP3-Coursework\Lab1\Debug\Lab1.exe
+     1>Done Building Project "C:\Users\Mark\Documents\GitHub\GP3\GP3-Coursework\Lab1\Lab1\Lab1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.78
